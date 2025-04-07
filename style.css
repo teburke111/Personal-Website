@@ -299,6 +299,7 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    min-width: 250px;
 }
 
 .section-container {
@@ -329,6 +330,8 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    max-width: 1200px;
+
 }
 
 .article-container {
@@ -368,9 +371,19 @@ article .icon {
     height: 90%; 
 }
 
+.project-img4 {
+    border-radius: 2rem;
+    width: 70%; 
+    height: 70%; 
+}
+
 .project-title {
     margin: 1rem;
     color: black;
+}
+
+.project-tools{
+    margin-top: 1rem;
 }
 
 .project-btn {
