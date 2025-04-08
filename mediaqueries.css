@@ -46,6 +46,10 @@
         margin: 0 auto 2rem;
     }
 
+    .about-containers2 {
+        flex-direction: column; /* Switch to column layout on smaller screens */
+    }
+
     .about-containers {
         margin-top: 0;
     }

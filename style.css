@@ -159,6 +159,7 @@ section {
 
 .section-container {
     display: flex;
+    justify-content: center;
 }
 
 /*Profile Section*/
@@ -272,10 +273,27 @@ section {
     flex-wrap: wrap;
 }
 
+.about-containers2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    margin-bottom: 2rem;
+}
+
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    display: flex;
 }
+
+.about-details-container2 {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
 
 .about-containers, .about-details-container {
     display: flex;
