@@ -320,6 +320,11 @@ section {
     min-width: 250px;
 }
 
+/* .details-container p{
+    display: flex;
+    justify-content: left;
+} */
+
 .section-container {
     gap: 4rem;
     height: 80%;
@@ -352,6 +357,11 @@ section {
 
 }
 
+.article-container article{
+    align-content: left;
+    display: flex;
+}
+
 .article-container {
     display: flex;
     text-align: initial;
@@ -364,11 +374,13 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
     gap: 0.5rem;
 }
 
 article .icon {
+    margin-right: 10px;
     cursor: default;
 }
 
